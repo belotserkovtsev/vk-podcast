@@ -100,7 +100,8 @@ struct CheckView: View {
             
 //            Spacer()
         }
-        
+        .navigationBarBackButtonHidden(true)
+        .navigationBarItems(leading: btnBack)
     }
 }
 

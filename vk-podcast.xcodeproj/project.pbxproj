@@ -40,6 +40,7 @@
 		84F854B425127BE400B83398 /* VkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkButtonView.swift; sourceTree = "<group>"; };
 		84F854BA2512CED800B83398 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
 		84F854BC2512D6C400B83398 /* PodcastCreatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCreatedView.swift; sourceTree = "<group>"; };
+		84F854C02512E88500B83398 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		84074129251213510024277C = {
 			isa = PBXGroup;
 			children = (
+				84F854C02512E88500B83398 /* .gitignore */,
 				84074134251213510024277C /* vk-podcast */,
 				84074133251213510024277C /* Products */,
 			);
