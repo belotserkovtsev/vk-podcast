@@ -14,7 +14,6 @@ struct EditorView: View {
     
     init(podcastPost: PodcastPost){
         self.podcastPost = podcastPost
-//        self.presentationMode.wrappedValue.dismiss()
     }
     
     var btnBack : some View { Button(action: {

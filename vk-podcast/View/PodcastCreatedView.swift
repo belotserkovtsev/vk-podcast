@@ -9,12 +9,6 @@
 import SwiftUI
 
 struct PodcastCreatedView: View {
-//    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-
-
-//    init() {
-//        self.presentationMode.wrappedValue.dismiss()
-//    }
     
     var body: some View {
         VStack(spacing: .zero) {

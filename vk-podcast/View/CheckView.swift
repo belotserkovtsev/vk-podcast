@@ -88,7 +88,6 @@ struct CheckView: View {
             } else {
                 Spacer()
             }
-//            Spacer()
             Divider().padding([.leading, .trailing])
             
             VkButtonView(with: "Опубликовать подкаст",
@@ -97,8 +96,6 @@ struct CheckView: View {
                             .navigationBarTitle("")
                             .navigationBarHidden(true),
                          isActive: true).frame(width: 351, height: 44)
-            
-//            Spacer()
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: btnBack)
