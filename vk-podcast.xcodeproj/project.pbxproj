@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		84074136251213510024277C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84074135251213510024277C /* AppDelegate.swift */; };
 		84074138251213510024277C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84074137251213510024277C /* SceneDelegate.swift */; };
-		8407413A251213510024277C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84074139251213510024277C /* ContentView.swift */; };
+		8407413A251213510024277C /* NewPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84074139251213510024277C /* NewPodcastView.swift */; };
 		8407413C251213530024277C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407413B251213530024277C /* Assets.xcassets */; };
 		8407413F251213530024277C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8407413E251213530024277C /* Preview Assets.xcassets */; };
 		84074142251213530024277C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84074140251213530024277C /* LaunchScreen.storyboard */; };
+		84F854A92512219900B83398 /* TTCommons-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84F854A82512219900B83398 /* TTCommons-DemiBold.ttf */; };
+		84F854AB25122DD600B83398 /* CreatePodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854AA25122DD600B83398 /* CreatePodcastView.swift */; };
+		84F854AE2512470200B83398 /* PodcastPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854AD2512470200B83398 /* PodcastPost.swift */; };
+		84F854B12512472000B83398 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854B02512472000B83398 /* Podcast.swift */; };
+		84F854B32512795300B83398 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854B22512795300B83398 /* EditorView.swift */; };
+		84F854B525127BE400B83398 /* VkButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854B425127BE400B83398 /* VkButtonView.swift */; };
+		84F854BB2512CED800B83398 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854BA2512CED800B83398 /* CheckView.swift */; };
+		84F854BD2512D6C400B83398 /* PodcastCreatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F854BC2512D6C400B83398 /* PodcastCreatedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84074132251213510024277C /* vk-podcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vk-podcast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84074135251213510024277C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84074137251213510024277C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84074139251213510024277C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84074139251213510024277C /* NewPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPodcastView.swift; sourceTree = "<group>"; };
 		8407413B251213530024277C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8407413E251213530024277C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84074141251213530024277C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84074143251213530024277C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F854A82512219900B83398 /* TTCommons-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TTCommons-DemiBold.ttf"; sourceTree = "<group>"; };
+		84F854AA25122DD600B83398 /* CreatePodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePodcastView.swift; sourceTree = "<group>"; };
+		84F854AD2512470200B83398 /* PodcastPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastPost.swift; sourceTree = "<group>"; };
+		84F854B02512472000B83398 /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		84F854B22512795300B83398 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		84F854B425127BE400B83398 /* VkButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkButtonView.swift; sourceTree = "<group>"; };
+		84F854BA2512CED800B83398 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		84F854BC2512D6C400B83398 /* PodcastCreatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCreatedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +72,15 @@
 		84074134251213510024277C /* vk-podcast */ = {
 			isa = PBXGroup;
 			children = (
-				84074135251213510024277C /* AppDelegate.swift */,
+				84F854AF2512470800B83398 /* Model */,
+				84F854AC2512467F00B83398 /* ViewModel */,
+				84074149251213620024277C /* View */,
 				84074137251213510024277C /* SceneDelegate.swift */,
-				84074139251213510024277C /* ContentView.swift */,
 				8407413B251213530024277C /* Assets.xcassets */,
 				84074140251213530024277C /* LaunchScreen.storyboard */,
+				84074135251213510024277C /* AppDelegate.swift */,
 				84074143251213530024277C /* Info.plist */,
+				84F854A72512219900B83398 /* Fonts */,
 				8407413D251213530024277C /* Preview Content */,
 			);
 			path = "vk-podcast";
@@ -73,6 +92,43 @@
 				8407413E251213530024277C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84074149251213620024277C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84F854BC2512D6C400B83398 /* PodcastCreatedView.swift */,
+				84F854BA2512CED800B83398 /* CheckView.swift */,
+				84F854B22512795300B83398 /* EditorView.swift */,
+				84F854AA25122DD600B83398 /* CreatePodcastView.swift */,
+				84074139251213510024277C /* NewPodcastView.swift */,
+				84F854B425127BE400B83398 /* VkButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84F854A72512219900B83398 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				84F854A82512219900B83398 /* TTCommons-DemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		84F854AC2512467F00B83398 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84F854AD2512470200B83398 /* PodcastPost.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84F854AF2512470800B83398 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84F854B02512472000B83398 /* Podcast.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +192,7 @@
 				84074142251213530024277C /* LaunchScreen.storyboard in Resources */,
 				8407413F251213530024277C /* Preview Assets.xcassets in Resources */,
 				8407413C251213530024277C /* Assets.xcassets in Resources */,
+				84F854A92512219900B83398 /* TTCommons-DemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +205,14 @@
 			files = (
 				84074136251213510024277C /* AppDelegate.swift in Sources */,
 				84074138251213510024277C /* SceneDelegate.swift in Sources */,
-				8407413A251213510024277C /* ContentView.swift in Sources */,
+				84F854B12512472000B83398 /* Podcast.swift in Sources */,
+				84F854BB2512CED800B83398 /* CheckView.swift in Sources */,
+				84F854B32512795300B83398 /* EditorView.swift in Sources */,
+				8407413A251213510024277C /* NewPodcastView.swift in Sources */,
+				84F854B525127BE400B83398 /* VkButtonView.swift in Sources */,
+				84F854AE2512470200B83398 /* PodcastPost.swift in Sources */,
+				84F854BD2512D6C400B83398 /* PodcastCreatedView.swift in Sources */,
+				84F854AB25122DD600B83398 /* CreatePodcastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
